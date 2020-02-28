@@ -1,18 +1,16 @@
-" Syntax Highlighting
-if has("Syntax")
-    syntax on
-endif
-
+syntax on
+set number
 set autoindent
-set cindent
 set smartindent
-set nu
-set ts=4
-set expandtab
+set cindent
 set shiftwidth=4
-set laststatus=1
+set tabstop=4
 set hlsearch
-set showmatch
+set nocompatible
+set fileencodings=utf-8
+set bs=indent,eol,start
 set ruler
-set sw=1
-set backspace=2
+set title
+set wmnu
+set mouse=a
+filetype indent on
