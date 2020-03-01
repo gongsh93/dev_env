@@ -16,7 +16,7 @@ gsettings set org.gnome.desktop.interface cursor-theme "redglass"
 gsettings set org.gnome.desktop.interface cursor-size 50
 gsettings set org.gnome.desktop.background picture-uri 'file:///home/gong/code/dev_env/RAZER_background.jpg'
 gsettings set org.gnome.desktop.interface text-scaling-factor 1.5
-gsettings set org.gnome.desktop.session idle-delay 0
+gsettings set org.gnome.desktop.session idle-delay 3600
 
 GNOME_TERMINAL_PROFILE=`gsettings get org.gnome.Terminal.ProfilesList default | awk -F \' '{print $2}'`
 gsettings set org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:$GNOME_TERMINAL_PROFILE/ use-theme-colors false
