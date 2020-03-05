@@ -1,5 +1,14 @@
+echo "git config setting..."
+git config --global user.email "gongsh93@gmail.com"
+git config --global user.name "Seonghyeon Gong"
+echo "git config setting done."
+
 echo "Installing essential tools for ubuntu environment..."
-sudo apt-get install vim -y
+sudo apt install vim -y
+sudo apt install tmux -y
+cd ~/code/dev_env/linux_ubuntu
+cp ./.vimrc ~
+cp ./.tmux.conf ~
 echo "Essential tools installation done."
 
 echo "Google Chrome Installation"
@@ -9,8 +18,8 @@ rm google-chrome-stable_current_amd64.deb
 
 
 echo "Installing GUI tools for ubuntu..."
-sudo apt-get install gnome-tweaks -y
-sudo apt-get install dconf-editor -y
+sudo apt install gnome-tweaks -y
+sudo apt install dconf-editor -y
 gsettings set org.gnome.desktop.interface gtk-theme "HighContrastInverse"
 gsettings set org.gnome.desktop.interface cursor-theme "redglass"
 gsettings set org.gnome.desktop.interface cursor-size 50
