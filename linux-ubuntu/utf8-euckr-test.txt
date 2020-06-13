@@ -1,0 +1,2 @@
+This is test text for file encoding
+이 것은 인코딩 테스트를 위한 텍스트입니다. 

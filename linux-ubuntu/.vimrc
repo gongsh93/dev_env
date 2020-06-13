@@ -1,6 +1,8 @@
 syntax on
 filetype indent on
 
+set fileencoding=utf8
+
 set number
 set autoindent
 set smartindent
